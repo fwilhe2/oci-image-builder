@@ -17,5 +17,6 @@ jobs:
 
     - run: sudo apt-get -y install libgpgme-dev libbtrfs-dev libdevmapper-dev
     - run: go run .
+    - run: docker images
     - run: docker run docker.io/myusername/my-image
     
