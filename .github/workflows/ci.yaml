@@ -19,5 +19,5 @@ jobs:
     - run: go run .
     - run: docker images
     - run: buildah images
-    # - run: docker run docker.io/myusername/my-image
+    - run: podman run docker.io/myusername/my-image
     
